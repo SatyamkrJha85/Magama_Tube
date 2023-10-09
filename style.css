@@ -1,19 +1,18 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
-html,body{
-    height: 100%;
-    width: 100%;
-    background-color: #0a3cca;
-
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 #main{
     position: relative;
     overflow: hidden;
+    background-color: #1137ca;
 }
-
 @font-face {
     font-family: a;
     src: url(./jost-variable.ttf);
@@ -26,15 +25,15 @@ html,body{
     font-family: c;
     src: url(./KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf);
 }
-#page1{
+#page1
+{
     height: 100vh;
     width: 100vw;
-    background-color: red;
     position: relative;
 }
 #page1>video{
-    width: 100%;
     height: 100%;
+    width: 100%;
     object-fit: cover;
 }
 #page1>nav{
@@ -42,9 +41,9 @@ html,body{
     align-items: center;
     justify-content: space-between;
     padding: 0px 30px;
-    width: 100%;
-    height: 10vh;
     position: absolute;
+    height: 10vh;
+    width: 100vw;
 }
 #page1>nav>img{
     margin-top: -1.7vw;
@@ -53,98 +52,98 @@ html,body{
 #right-nav>button{
     padding: 10px 20px;
     border-radius: 50px;
-    border: 1px solid white;
     background-color: #0b48ed;
-    color: white;
+    border: 1px solid #fff;
+    color: #fff;
     font-family: a;
     font-size: 15px;
 }
-.bootom-page1{
+.bottom-page1{
     position: absolute;
     bottom: 5%;
-    left: 10%;
-    width: 50vw;
     height: 35vh;
+    width: 50vw;
+    left: 10%;
 }
-.bootom-page1>h1{
+.bottom-page1>h1{
     font-family: a;
     font-size: 5vw;
     font-weight: 100;
     line-height: 1;
-    color: white;
+    color: #fff;
 }
-.botoom-page1-inner{
-    bottom: 0%;
+.bottom-page1-inner{
     position: absolute;
+    bottom: 0%;
     height: 35%;
     width: 100%;
-  
 }
-.botoom-page1-inner{
+.bottom-page1-inner{
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-family: a;
 }
-.botoom-page1-inner>button{
+.bottom-page1-inner>button{
     padding: 10px 20px;
     border: none;
     border-radius: 50px;
-    background-color: white;
+    background-color: #fff;
     color: #0b48ed;
-    font-family: b;
     font-size: 16px;
+    font-family: b;
 }
-.botoom-page1-inner>h4{
-    color: white;
+.bottom-page1-inner>h4{
     font-size: 1.3vw;
     font-weight: 100;
+    color: #fff;
 }
 #page2{
-    font-family: a;
     display: flex;
     align-items: start;
+    font-family: a;
     justify-content: center;
     flex-direction: column;
     height: 100vh;
     width: 100vw;
-    background-color: #0a3cca;
     position: relative;
     padding: 0vw 8vw;
     color: #fff;
+    background-color: #0a3cce;
 }
 #page2>h2{
-    font-weight: 100;
     margin-bottom: 3vw;
+    font-weight: 100;
 }
 #page2>h1{
     font-weight: 100;
     line-height: 1.3;
     width: 90%;
     font-size: 4vw;
-    color: #dada6969;
+    color: #dadada69;
 }
+
+
 #page3{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color:#0a3cca;
 }
 #page3>canvas{
-    position: relative;
     max-height: 100vh;
     max-width: 100vw;
+    position: relative;
 }
 #page4{
-    position: relative;
     display: flex;
-    flex-direction: column;
     align-items: start;
     justify-content: center;
+    flex-direction: column;
+    position: relative;
     height: 100vh;
     width: 100vw;
+    background-color: #1137ca;
     font-family: a;
-    background-color:#1137ca
 }
 #page4>h3{
     margin-left: 15vw;
@@ -157,12 +156,12 @@ html,body{
     width: 70%;
     font-size: 3vw;
     font-weight: 100;
-    color: #9a9696;
+    color: #ffffff81;
 }
 #page5{
+    position: relative;
     height: 100vh;
     width: 100vw;
-    position: relative;
 }
 #page5>canvas{
     position: relative;
@@ -173,31 +172,31 @@ html,body{
     display: flex;
     align-items: start;
     justify-content: center;
+    position: relative;
     height: 100vh;
     width: 100vw;
-    position: relative;
-    background-color: #0a3cca;
-    font-family: a;
+    background-color: #0a3cce;
     flex-direction: column;
+    font-family: a;
 }
 #page6>h3{
     margin-left: 15vw;
-    margin-bottom: 2vw;
     font-weight: 100;
     color: #fff;
+    margin-bottom: 2vw;
 }
 #page6>h1{
     margin-left: 15vw;
-    width: 70%;
     font-size: 3vw;
+    width: 70%;
     font-weight: 100;
-    color: #9a9696;
+    color: #ffffff53;
 }
 #page7{
+    position: relative;
     height: 100vh;
     width: 100vw;
-    position: relative;
-    background-color: #0a3cca;
+    background-color: #0a3cce;
 }
 #page7>canvas{
     position: relative;
@@ -216,21 +215,21 @@ html,body{
     height: 30vw;
     width: 30vw;
     border-radius: 50%;
-    border: 0px solid #0a3cca;
+    border: 1px solid #fff;
 }
 .page7-cir-inner{
     height: 70%;
     width: 70%;
     border-radius: 50%;
     background-color: transparent;
-    border: 0px solid #0a3cca;
+    border: 1px solid #fff;
 }
 
 #page8{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: #0a3cca;
+    background-color: #0a3cce;
 }
 #page8>video{
     height: 100%;
@@ -246,33 +245,28 @@ html,body{
     font-family: a;
 }
 .page8-bottom>h1{
-    color: white;
+    color: #fff;
     margin-bottom: 2vw;
     font-size: 5vw;
     font-weight: 100;
 }
 .page8-bottom>button{
-    padding: 10px 30px ;
+    padding: 20px 30px;
     border-radius: 50px;
     border: none;
-    background-color: white;
-    color: #0a3cca;
+    background-color: #fff;
+    color: #0a3cce;
 }
 #page9{
     display: flex;
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: #0a3cca;
+    background-color: #0a3cce;
 }
 .left9{
     height: 100%;
     width: 40%;
-    position: relative;
-}
-.right9{
-    height: 100%;
-    width: 60%;
     position: relative;
     font-family: a;
 }
@@ -283,9 +277,13 @@ html,body{
     transform: translateY(-50%);
     font-size: 5vw;
     font-weight: 100;
-    color: white;
+    color: #fff;
     line-height: 1;
-    
+}
+.right9{
+    height: 100%;
+    width: 60%;
+    position: relative;
 }
 .right9-center{
     height: 50%;
@@ -302,37 +300,37 @@ html,body{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: #0a3cca;
+    background-color: #0a3cce;
 }
 .right10{
     height: 100%;
     width: 60%;
-    left: 40%;
     position: relative;
+    left: 40%;
 }
 .right10-inner{
     display: flex;
-    justify-content: start;
     align-items: start;
     flex-direction: column;
-    height: 33%;
+    height: 33.3%;
+    width: 100%;
     font-family: a;
-    color: white;
+    color: #fff;
 }
 .right10-inner>h1{
     font-size: 2vw;
 }
 .right10-inner>p{
+    margin-top: 2vw;
     font-size: 1.3vw;
     width: 80%;
-    margin-top: 2vw;
 }
 
 #page11{
     position: relative;
     height: 110vh;
     width: 100vw;
-    background-color: #0a3cca;
+    background-color: #fff;
     font-family: a;
 }
 #page11>h1{
@@ -366,7 +364,7 @@ html,body{
 }
 .right11{
     padding-top: 5vw;
-    color: #fff;
+    color: #000;
     left: 50%;
     position: absolute;
     height: 100%;
@@ -472,18 +470,4 @@ html,body{
 
 .page14-inner:hover .center14{
     height: 100%;
-}
-
-
-
-.right12-center{
-    height: 80%;
-    width: 55%;
-    border-radius: 10px;
-    position: absolute;
-    top: 40%;
-    transform: translateY(-30%);
-    background-image: url(https://lh3.googleusercontent.com/pw/AIL4fc_WFDujnikSQRSJ2JRC9zhpEKORW3oPiTPW1N_nnjDAr_M_vgwlNDWzxXYFsBMmpd-Zyo8zTaQdZki1tum26dpsg7pAdNGKzlvpqcOBmrwFQ7MpMHpm4Qq9gQTeiYanc6c3TCjdhpVmcGclSjbckwP6WfM2U5EbQi2QTTFpI7JZGpxLRlDorXFQne-iCxba9qFFoe4pdnspSsAnk3T2HCLGRQDmaAtbkW6pLkdzeKiN7ExLVcuuWS5nA7Oz-F_G--A9TQho6fizkXlPZt5urp2wRX6Gb-78cqGelkwV2YveLeYiZHO8WiaFTi5rwTzeAVHW4zdUtXln7-quDken4qfnKZ76eTSU4gAh1Yw4O-xp_ZhTF3vYp5FynEIFfekffxKgkls5Pj7W82Nhel5AKSc3588hl-B-M--p1J9IkAFFk_Y1RpuyN4xZZr7qiVMa1073_qjqOIpcQu8ObZhQRI86WzhrI9u_wbwxJelAk0X_vbX68bMWeaKQTquj5ml91xkR1rQRV5Q730kEQh0-9lqGIg0TWAQHk-A-bQCNKr9E2KfKzMuSI6G05ai3hpYh4D9DtMmK00aSD8GvFLH0VrsXFBq_HtiBwXiKMLkAEPrUn8SquKUEIiSQ6duNz8S4ROYT7GTrIJsLhhsWElFSO3Y-pDPuWGxcKLfibN4So5ItmkxbqnCzaCyTe7Yq86ENZKRc1qr5wD9Oe_uxGhnqh5eXgLaum-24_bpJjLVbVetnNS5pAKq9PgjPhQ48AUewRvKpObSUKB0VaHU-NsDLCs4brbOXmu1LjoKUlXcKeLnXYTHviB4wK29LZjAUZcZaHtL5C1aSxHA1AD6TkWyyabhXpXq_12clDHMCumwZyzYteWrb3k2iAgZH5tJvtQ1Fw8k2oBkeDSmKu82kCvflm2Vw_Q=w503-h893-s-no?authuser=0);
-    background-size: cover;
-    right: 45%;
 }
